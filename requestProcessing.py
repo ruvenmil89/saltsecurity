@@ -13,7 +13,7 @@ class RequestProcessing:
 
     """
     This function simulates getting of a new request and processing the request
-    I'm processing the requests n parallel by using multi threading
+    I'm processing the requests in parallel way by using multi threading
     """
     def run(self):
 

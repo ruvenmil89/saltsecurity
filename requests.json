@@ -1,0 +1,472 @@
+[{
+	"path": "/users/info",
+	"method": "GET",
+	"query_params": [
+		{
+			"name": "with_extra_data",
+			"value": false
+		}
+	],
+	"headers": [
+		{
+			"name": "Authorization",
+			"value": "Bearer 56ee9b7a-da8e-45a1-aade-a57761b912c4"
+		}
+	],
+	"body": []
+},
+{
+	"path": "/users/info",
+	"method": "GET",
+	"query_params": [
+		{
+			"name": "with_extra_data",
+			"value": true
+		},
+		{
+			"name": "user_id",
+			"value": "d9b96787786b"
+		}
+	],
+	"headers": [],
+	"body": []
+},
+{
+	"path": "/users/info",
+	"method": "GET",
+	"query_params": [
+		{
+			"name": "with_extra_data",
+			"value": false
+		}
+	],
+	"headers": [
+		{
+			"name": "Authorization",
+			"value": "Bearer 8aaadc6a-fe9c-4014-b425-75421022aebe"
+		}
+	],
+	"body": []
+},
+{
+	"path": "/users/info",
+	"method": "GET",
+	"query_params": [
+		{
+			"name": "user_id",
+			"value": "0769e264b503"
+		}
+	],
+	"headers": [
+		{
+			"name": "Authorization",
+			"value": "Bearer 8c7d5996-7318-4a93-bc07-ea4734e333ce"
+		}
+	],
+	"body": []
+},
+{
+	"path": "/users/create",
+	"method": "POST",
+	"query_params": [],
+	"headers": [],
+	"body": [
+		{
+			"name": "firstName",
+			"value": "John"
+		},
+		{
+			"name": "lastName",
+			"value": "Doe"
+		},
+		{
+			"name": "phone",
+			"value": "0555555555"
+		},
+		{
+			"name": "email",
+			"value": "john@doe.test"
+		},
+		{
+			"name": "username",
+			"value": "john_doe"
+		},
+		{
+			"name": "password",
+			"value": "test"
+		},
+		{
+			"name": "address",
+			"value": "Test Road"
+		},
+		{
+			"name": "dob",
+			"value": "01-01-1980"
+		}
+	]
+},
+{
+	"path": "/users/create",
+	"method": "POST",
+	"query_params": [],
+	"headers": [],
+	"body": [
+		{
+			"name": "lastName",
+			"value": "Doe2"
+		},
+		{
+			"name": "phone",
+			"value": "no"
+		},
+		{
+			"name": "email",
+			"value": "john2@doe.test"
+		},
+		{
+			"name": "username",
+			"value": "john_doe"
+		},
+		{
+			"name": "password",
+			"value": "test2"
+		},
+		{
+			"name": "address",
+			"value": "Test Road"
+		},
+		{
+			"name": "dob",
+			"value": "01-01-1980"
+		}
+	]
+},
+{
+	"path": "/users/create",
+	"method": "POST",
+	"query_params": [],
+	"headers": [],
+	"body": [
+		{
+			"name": "firstName",
+			"value": "John3"
+		},
+		{
+			"name": "lastName",
+			"value": "Doe3"
+		},
+		{
+			"name": "phone",
+			"value": "0565555555"
+		},
+		{
+			"name": "email",
+			"value": "john3@doe3.test"
+		},
+		{
+			"name": "username",
+			"value": "john_doe3"
+		},
+		{
+			"name": "password",
+			"value": "test3"
+		}
+	]
+},
+{
+	"path": "/users/create",
+	"method": "POST",
+	"query_params": [],
+	"headers": [],
+	"body": [
+		{
+			"name": "firstName",
+			"value": "John4"
+		},
+		{
+			"name": "lastName",
+			"value": "Doe4"
+		},
+		{
+			"name": "phone",
+			"value": "0555855555"
+		},
+		{
+			"name": "email",
+			"value": 777777
+		},
+		{
+			"name": "username",
+			"value": "john_doe4"
+		},
+		{
+			"name": "password",
+			"value": "test4"
+		},
+		{
+			"name": "address",
+			"value": "Test Road"
+		}
+	]
+},
+{
+	"path": "/orders/info",
+	"method": "GET",
+	"query_params": [
+		{
+			"name": "order_id",
+			"value": "8c7d5996-7318-4a93-bc07-ea4734e333ce"
+		}
+	],
+	"headers": [
+		{
+			"name": "Authorization",
+			"value": "Bearer ebb3cbbe938c4776bd22a4ec2ea8b2ca"
+		}
+	],
+	"body": []
+},
+{
+	"path": "/orders/info",
+	"method": "GET",
+	"query_params": [],
+	"headers": [
+		{
+			"name": "Authorization",
+			"value": "Bearer ebb3cbbe938c4776bd22a4ec2ea8b2ca"
+		}
+	],
+	"body": []
+},
+{
+	"path": "/orders/info",
+	"method": "GET",
+	"query_params": [{
+			"name": "order_id",
+			"value": 55555
+		}],
+	"headers": [
+		{
+			"name": "Authorization",
+			"value": "Bearer ebb3cbbe938c4776bd22a4ec2ea8b2ca"
+		}
+	],
+	"body": []
+},
+{
+	"path": "/orders/create",
+	"method": "POST",
+	"query_params": [],
+	"headers": [
+		{
+			"name": "Authorization",
+			"value": "Bearer ebb3cbbe938c4776bd22a4ec2ea8b2ca"
+		}
+	],
+	"body": [
+		{
+			"name": "address",
+			"value": "Test Road"
+		},
+		{
+			"name": "order_type",
+			"value": 4
+		},
+		{
+			"name": "items",
+			"value": [
+				{
+					"id": "a5",
+					"amount": 5
+				},
+				{
+					"id": "a3",
+					"amount": 2
+				}
+			]
+		}
+	]
+},
+{
+	"path": "/orders/create",
+	"method": "POST",
+	"query_params": [],
+	"headers": [
+		{
+			"name": "Authorization",
+			"value": "Bearer ebb3cbbe938c4776bd22a4ec2ea8b2ca"
+		}
+	],
+	"body": [
+		{
+			"name": "address",
+			"value": "Test Road"
+		},
+		{
+			"name": "order_type",
+			"value": "banana"
+		},
+		{
+			"name": "items",
+			"value": [
+				{
+					"id": "a5",
+					"amount": 5
+				}
+			]
+		}
+	]
+},
+{
+	"path": "/orders/create",
+	"method": "POST",
+	"query_params": [],
+	"headers": [
+		{
+			"name": "Authorization",
+			"value": "Bearer ebb3cbbe938c4776bd22a4ec2ea8b2ca"
+		}
+	],
+	"body": [
+		{
+			"name": "order_type",
+			"value": 3
+		},
+		{
+			"name": "items",
+			"value": 55
+		}
+	]
+},
+{
+	"path": "/orders/update",
+	"method": "PATCH",
+	"query_params": [],
+	"headers": [
+		{
+			"name": "Authorization",
+			"value": "Bearer ebb3cbbe938c4776bd22a4ec2ea8b2ca"
+		}
+	],
+	"body": [
+		{
+			"name": "order_id",
+			"value": "46da6990-7c28-4a1c-9efa-7c0396067ce4"
+		},
+		{
+			"name": "address",
+			"value": "New Test Road"
+		},
+		{
+			"name": "order_type",
+			"value": 7
+		},
+		{
+			"name": "items",
+			"value": [
+				{
+					"id": "a1",
+					"amount": 3
+				},
+				{
+					"id": "a2",
+					"amount": 4
+				}
+			]
+		}
+	]
+},
+{
+	"path": "/orders/update",
+	"method": "PATCH",
+	"query_params": [],
+	"headers": [
+		{
+			"name": "Authorization",
+			"value": "Bearer ebb3cbbe938c4776bd22a4ec2ea8b2ca"
+		}
+	],
+	"body": [
+		{
+			"name": "order_type",
+			"value": 88
+		},
+		{
+			"name": "items",
+			"value": [
+				{
+					"id": "a1",
+					"amount": 3
+				},
+				{
+					"id": "a2",
+					"amount": 4
+				}
+			]
+		}
+	]
+},
+{
+	"path": "/orders/update",
+	"method": "PATCH",
+	"query_params": [],
+	"headers": [
+		{
+			"name": "Authorization",
+			"value": "Bearer ebb3cbbe938c4776bd22a4ec2ea8b2ca"
+		}
+	],
+	"body": [
+		{
+			"name": "order_id",
+			"value": "46da6390-7c78-4a1c-9efa-7c0396067ce4"
+		},
+		{
+			"name": "address",
+			"value": "Very New Test Road"
+		},
+		{
+			"name": "order_type",
+			"value": 8
+		},
+		{
+			"name": "items",
+			"value": [
+				{
+					"id": "a3",
+					"amount": 3
+				},
+				{
+					"id": "a5",
+					"amount": 4
+				}
+			]
+		}
+	]
+},
+{
+	"path": "/orders/update",
+	"method": "PATCH",
+	"query_params": [],
+	"headers": [
+		{
+			"name": "Authorization",
+			"value": "Bearer ebb3cbbe938c4776bd22a4ec2ea8b2ca"
+		}
+	],
+	"body": [
+		{
+			"name": "order_id",
+			"value": "46da6390-7c78-4a1c-9efa-7c0396067ce4"
+		},
+		{
+			"name": "address",
+			"value": "Very New Test Road"
+		},
+		{
+			"name": "order_type",
+			"value": "type1"
+		}
+	]
+}
+]

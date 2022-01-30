@@ -1,0 +1,155 @@
+[{
+	"path": "/users/info",
+	"method": "GET",
+	"query_params": [
+		{
+			"name": "with_extra_data",
+			"types": ["Boolean"],
+			"required": false
+		},
+		{
+			"name": "user_id",
+			"types": ["String", "UUID"],
+			"required": false
+		}
+	],
+	"headers": [
+		{
+			"name": "Authorization",
+			"types": ["String", "Auth-Token"],
+			"required": true
+		}
+	],
+	"body": []
+},
+{
+	"path": "/users/create",
+	"method": "POST",
+	"query_params": [],
+	"headers": [],
+	"body": [
+		{
+			"name": "firstName",
+			"types": ["String"],
+			"required": true
+		},
+		{
+			"name": "lastName",
+			"types": ["String"],
+			"required": true
+		},
+		{
+			"name": "phone",
+			"types": ["String"],
+			"required": false
+		},
+		{
+			"name": "email",
+			"types": ["String", "Email"],
+			"required": true
+		},
+		{
+			"name": "username",
+			"types": ["String"],
+			"required": true
+		},
+		{
+			"name": "password",
+			"types": ["String"],
+			"required": true
+		},
+		{
+			"name": "address",
+			"types": ["String"],
+			"required": false
+		},
+		{
+			"name": "dob",
+			"types": ["Date"],
+			"required": false
+		}
+	]
+},
+{
+	"path": "/orders/info",
+	"method": "GET",
+	"query_params": [
+		{
+			"name": "order_id",
+			"types": ["String", "UUID"],
+			"required": false
+		}
+	],
+	"headers": [
+		{
+			"name": "Authorization",
+			"types": ["String"],
+			"required": true
+		}
+	],
+	"body": []
+},
+{
+	"path": "/orders/create",
+	"method": "POST",
+	"query_params": [],
+	"headers": [
+		{
+			"name": "Authorization",
+			"types": ["String"],
+			"required": true
+		}
+	],
+	"body": [
+		{
+			"name": "address",
+			"types": ["String"],
+			"required": true
+		},
+		{
+			"name": "order_type",
+			"types": ["Int"],
+			"required": true
+		},
+		{
+			"name": "items",
+			"types": ["List"],
+			"required": true
+		}
+	]
+},
+{
+	"path": "/orders/update",
+	"method": "PATCH",
+	"query_params": [],
+	"headers": [
+		{
+			"name": "Authorization",
+			"types": ["String", "Auth-Token"],
+			"required": true
+		}
+	],
+	"body": [
+		{
+			"name": "order_id",
+			"types": ["String", "UUID"],
+			"required": true
+		},
+		{
+			"name": "address",
+			"types": ["String"],
+			"required": false
+		},
+		{
+			"name": "order_type",
+			"types": ["Int"],
+			"required": false
+		},
+		{
+			"name": "items",
+			"types": ["List"],
+			"required": false
+		}
+	]
+}
+]
